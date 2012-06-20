@@ -16,10 +16,10 @@ on alfred_script(q)
 
 		if found then
 			tell theTab
-				if q contains "next" then
+				if q contains "n" then
 					execute javascript "document.getElementById('next').click()"
 				end if
-				if q contains "pause" then
+				if q contains "p" then
 					execute javascript "document.getElementById('play-pause').click()"
 				end if
 				if q contains "prev" then
